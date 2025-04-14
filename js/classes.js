@@ -53,7 +53,7 @@ class Task {
     }
 
     getMaxLevelMultiplier() {
-        if (gameData.active_challenge == "dance_with_the_devil" || gameData.active_challenge == "the_darkest_time") || gameData.active_challenge == "the_brightest_time") {
+        if (gameData.active_challenge == "dance_with_the_devil" || gameData.active_challenge == "the_darkest_time" || gameData.active_challenge == "the_brightest_time") {
            return (10 / (this.maxLevel + 1))
         }
         else {
